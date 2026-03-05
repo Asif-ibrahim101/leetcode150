@@ -1,9 +1,16 @@
-def DFS(node):
-    #base case cause we use recurssion for DFS
-    if node == None:
-        return
+class TreeNode:
+    def __init__(self, val):
+        self.val = val
+        self.left = None
+        self.right = None
+    
+root = TreeNode(0)
+one = TreeNode(1)
+two = TreeNode(2)
 
-    DFS(node.left)
-    DFS(node.right)
+root.left = one
+root.right = two
 
-    return
+print(root.left.val)
+print(root.right.val)
+
