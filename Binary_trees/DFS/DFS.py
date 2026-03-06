@@ -3,7 +3,7 @@ class TreeNode:
         self.val = val
         self.left = None
         self.right = None
-    
+
 root = TreeNode(0)
 one = TreeNode(1)
 two = TreeNode(2)
