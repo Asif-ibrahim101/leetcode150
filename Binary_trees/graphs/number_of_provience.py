@@ -28,7 +28,6 @@ class Solution:
                     graph[i].append(j)
                     graph[j].append(i)
 
-
         seen = set()
         ans = 0
 

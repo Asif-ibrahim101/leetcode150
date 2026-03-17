@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/asifibrahim/Developer/Leetcode150/Binary_trees/graphs/Graph_basics",
+      "program": "/Users/asifibrahim/Developer/Leetcode150/Binary_trees/graphs/Graph_basics/build/Debug/outDebug"
+    }
+  ]
+}
